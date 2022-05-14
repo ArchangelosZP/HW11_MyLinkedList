@@ -30,11 +30,11 @@ public class Node<T> {
         this.prev = prev;
     }
 
-    public T getT() {
+    public T getItem() {
         return item;
     }
 
-    public void setT(T item) {
+    public void setItem(T item) {
         this.item = item;
     }
 }
